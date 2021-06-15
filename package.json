@@ -16,7 +16,7 @@
   "scripts": {
     "run:example": "yarn workspace lerna-yarn-example start",
     "test": "lerna run test --stream",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits --create-release github"
   },
   "devDependencies": {
     "jest": "^24.9.0",
