@@ -1,6 +1,6 @@
 {
   "name": "@tasshi/lerna-yarn-sandbox-package-b",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "This is lerna-yarn-sandbox-package-b",
   "author": "Masaharu TASHIRO <masatsr.kit@gmail.com> (https://tasshi.me)",
   "contributors": [
