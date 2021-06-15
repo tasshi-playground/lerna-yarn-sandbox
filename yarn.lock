@@ -360,6 +360,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@koba04/lerna-yarn-sandbox-package-a@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@koba04/lerna-yarn-sandbox-package-a/-/lerna-yarn-sandbox-package-a-1.5.2.tgz#aa4f3afa891996db3f2da5abd36089490d103239"
+  integrity sha512-GGi1tYN9C97pEdD7lwJJ4CIcDDDCkajcWVpAsMiveEVyn3vJGGF6kg1AXg1uKmhDNrcHwOhslSgxN/1R2q6C6g==
+  dependencies:
+    react "^16.12.0"
+
 "@lerna/add@3.19.0":
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.19.0.tgz#33b6251c669895f842c14f05961432d464166249"

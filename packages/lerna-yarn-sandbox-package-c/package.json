@@ -1,9 +1,12 @@
 {
-  "name": "@koba04/lerna-yarn-sandbox-package-c",
+  "name": "@tasshi/lerna-yarn-sandbox-package-c",
   "version": "1.2.2",
   "description": "> TODO: description",
-  "author": "Toru Kobayashi <koba0004@gmail.com>",
-  "homepage": "https://github.com/koba04/lerna-yarn-sandbox#readme",
+  "author": "Masaharu TASHIRO <masatsr.kit@gmail.com> (https://tasshi.me)",
+  "contributors": [
+    "Toru Kobayashi <koba0004@gmail.com>"
+  ],
+  "homepage": "https://github.com/tasshi-playground/lerna-yarn-sandbox#readme",
   "license": "ISC",
   "main": "lib/lerna-yarn-sandbox-package-c.js",
   "directories": {
@@ -18,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/koba04/lerna-yarn-sandbox.git",
+    "url": "git@github.com:tasshi-playground/lerna-yarn-sandbox.git",
     "directory": "packages/lerna-yarn-sandbox-package-c"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/koba04/lerna-yarn-sandbox/issues"
+    "url": "https://github.com/tasshi-playground/lerna-yarn-sandbox/issues"
   }
 }
