@@ -1,5 +1,6 @@
 # https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#workflow_dispatch
 name: Manually triggered workflow
+
 on:
   workflow_dispatch:
     inputs:
@@ -13,9 +14,17 @@ on:
         default: 'The Octoverse'
 
 jobs:
-  say_hello:
+  release:
+    name: Node.js ubuntu-latest 14.x
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - run: yarn install
+#       - run: yarn release
       - run: |
-          echo "Hello ${{ github.event.inputs.name }}!"
-          echo "- in ${{ github.event.inputs.home }}!"
+          echo "${{ github.actor }}"
+
